@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from typing import Dict, Any
-from enums.hardware_type import HardwareType
+from bop_common.enums.hardware_type import HardwareType
 
 @dataclass
 class CommunicationDTO:
