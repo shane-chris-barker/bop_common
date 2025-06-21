@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="bop_common",
-    version="0.1.0",
+    version="0.1.1",
     packages=find_packages(),
     description="Holds shared modules for the bop_sense, bop_brain and bop_body codebases",
     author="Shane Chris Barker",

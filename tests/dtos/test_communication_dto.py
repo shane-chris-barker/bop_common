@@ -9,10 +9,10 @@ def test_from_dict_creates_dto_correctly():
 def test_to_dict_outputs_the_correct_format():
     dto = CommunicationDTO(
         input=HardwareType.CAMERA,
-        content="Base64Image"
+        content={"data": "Base64Image"}
     )
     result = dto.to_dict()
     assert result == {
         "input": "camera",
-        "content": "Base64Image"
+        "content": {"data": "Base64Image"}
     }
