@@ -1,3 +1,4 @@
+[![Tests](https://github.com/shane-chris-barker/bop_common/actions/workflows/test.yml/badge.svg)](https://github.com/shane-chris-barker/bop_common/actions/workflows/test.yml)
 # 💌 Bop Common
 
 **Bop Common** is the shared module for **Bop**, a work-in-progress Raspberry Pi-powered robot pet project.
