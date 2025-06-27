@@ -13,6 +13,6 @@ def test_to_dict_outputs_the_correct_format():
     )
     result = dto.to_dict()
     assert result == {
-        "input": "camera",
+        "input": "camera_pi",
         "content": {"data": "Base64Image"}
     }
