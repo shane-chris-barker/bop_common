@@ -8,11 +8,11 @@ def test_from_dict_creates_dto_correctly():
 
 def test_to_dict_outputs_the_correct_format():
     dto = CommunicationDTO(
-        input=HardwareType.CAMERA,
+        input=HardwareType.CAMERA_PI,
         content={"data": "Base64Image"}
     )
     result = dto.to_dict()
     assert result == {
-        "input": "camera",
+        "input": "camera_pi",
         "content": {"data": "Base64Image"}
     }
