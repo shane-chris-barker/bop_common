@@ -1,4 +1,3 @@
-import pytest
 from bop_common.dtos.event_dto import EventDTO
 from bop_common.enums.event_type import EventType
 
