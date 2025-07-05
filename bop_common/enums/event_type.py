@@ -6,5 +6,6 @@ class EventType(Enum):
     BOP_HAPPY = 'bop.happy'
     BOP_SAD = 'bop.sad'
     BOP_LOVE = 'bop.love'
+    BOP_WEATHER_REPORT = 'bop.weather_report'
 
 
